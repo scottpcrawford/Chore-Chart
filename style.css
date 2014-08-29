@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=News+Cycle|Lora|Julius+Sans+One);
 
+body{
+	background-color: gray;
+	background-repeat: repeat;
+
+	} 
+
 p{
 	font-family: 'News Cycle', sans-serif;
 	color: #202020;
@@ -10,22 +16,49 @@ p{
 h1{
 	font-family: 'Julius Sans One','Lora', sans-serif;
 	color: #006699;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
 	}
 
-body{
-	background-color: white;
-	background-repeat: repeat;
-	height: 100%;
-	} 
-/* Styling for Chores */
-ol li{
-	font-size: 16px;
+h3{
 	font-family: 'Lora', sans-serif;
 	color: #000;
 	text-align: left;
+	
 }
+
+.fa-li {
+
+    margin: 10px;
+}
+/* Styling for Chores */
+.chore-main{
+	top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	width: 600px;
+	background-color: rgba(171, 221, 164, 1.0);
+	box-shadow: 10px 10px 5px #777777;
+	z-index: 1;
+}
+#chore{
+	cursor: pointer;
+	cursor: -webkit-grab; 
+	cursor: -moz-grab;
+	font-size: 16px;
+	border: 5px solid black; 
+	border-radius: 5px;
+	margin: 5px;
+	vertical-align: middle; 
+}
+.chore-group{
+	display: none;
+}
+#morning{
+	display: block;
+}
+
 
 .button-wrapper{
 	height: 100px;
@@ -43,33 +76,9 @@ ol li{
 	text-decoration: none;
 }
 
-.chore-group{
-	display: none;
-}
-		#morning{
-			display: block;
-		}
-		#afternoon{
-			display: none;
-		}
-		#nighttime{
-			display: none;
-		} 
 
-.chore-main{
-	position: absolute;
-	/*top: 280px; */
-	top: 75px;
-	left: 18%;
-	background-color: rgba(171, 221, 164, 1.0);
-	box-shadow: 10px 10px 5px #777777;
-	width: 65%;
-	height: 600px;
-	margin: 0px auto;
-	border: 2px solid grey;
-	border-radius: 1em;
-	z-index: 1;
-	}
+
+
 
 
 a:visited{
@@ -77,14 +86,29 @@ a:visited{
 }
 a:link{
 	color: #ffffff;
-	
 }
 a:hover{
+	cursor: pointer;
 	color: #ffffff;
 	background-color: #000000;
 	box-shadow: 2px 2px 5px #777777; 
-
 }
 a:active{
 	color: #000000;
+}
+
+#chore:hover{
+	background-color: green;
+	color:white;
+}
+.highlight {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.highlight #chore{
+	color: green;
+}
+.highlight h3{
+	color: white;
 }

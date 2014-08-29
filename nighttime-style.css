@@ -20,3 +20,10 @@ a:hover{
 a:active{
 	color: #000000;
 }
+
+h1{
+	color: white;
+}
+.chore-main{
+	background-color: rgba(82,110,168,0.85);
+}

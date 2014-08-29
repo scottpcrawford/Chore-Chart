@@ -23,8 +23,16 @@ var main = function(){
 	       		break;
        		}
     		
-});
-}
+	});
+
+	$('.fa-ul #chore').click( function() {
+		$(this).toggleClass('highlight');
+	
+
+		
+	});
+
+};
 
 $(document).ready(main)
 

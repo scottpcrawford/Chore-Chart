@@ -22,7 +22,7 @@
 	<div class="button-wrapper">
 		<ul>
 		<li class="button" id="morning-button" data-theme="morning-style.css"><a href="#"><i class="fa fa-sun-o fa-2x"> Morning </i></a></li>
-		<li class="button" id="afternoon-button" data-theme="afternoon-style.css"><a href="#"> <i class="fa fa-adjust fa-2x"> Afternoon </i></a></li>
+		<li class="button" id="afternoon-button" data-theme="afternoon-style.css"><a href="#"> <i class="fa fa-adjust fa-2x"> Afternoon </i></i></a></li>
 		<li class="button" id="nighttime-button" data-theme="nighttime-style.css"><a href="#"> <i class="fa fa-moon-o fa-2x"> Nighttime</i> </a></li>
 		</ul>
 	</div>
@@ -35,56 +35,67 @@
 		<!-- Morning Time -->
 		<div class="chore-group" id="morning"> 
 			<h1> Morning Activities (6:00 - 7:00) </h1>
-			<ol>
-				<h3><li>Help Animals</li></h3>
-					<ul> <li> Food & Water </li></ul>
-				<h3><li>Get Dressed</li></h3>
-					<ul> <li> Clothes & Hair </li></ul>
-				<h3><li>Eat Breakfast </li></h3>
-					<ul><li> Food </li></ul>
-				<h3><li> Clean Body </li></h3>
-					<ul><li> Hands, Face, Teeth </li></ul>
-				<h3><li> Make Bed </li></h3>
-					<ul><li> Pillows & Blankets </li></ul>
-			</ol>
+
+			<ul class='fa-ul' id="morning-activities">
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Help Animals</h3>
+					<ul> <li> Food & Water </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Get Dressed</h3>
+					<ul> <li> Clothes & Hair </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Eat Breakfast </h3>
+					<ul><li> Food </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Clean Body </h3>
+					<ul><li> Hands, Face, Teeth </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Make Bed </h3>
+					<ul><li> Pillows & Blankets </li></ul></li>
+			</ul class='fa-ul'>
 		</div>
 
+<!--
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+  <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+  <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
+  <li><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i>in lists</li>
+</ul>
+-->
 		<!-- Afternoon Time -->
 		<div class="chore-group" id="afternoon"> 
 			<h1> Afternoon Activities (3:30 - 5:30) </h1>
-			<ol>
-				<h3><li> Snack Time </li></h3>
-					<ul><li> Healthy Treats </li></ul>
-				<h3><li>Clean Out </li></h3>
-					<ul><li> Lunchbox </li></ul>
-				<h3><li>Cleaning Frenzy</li></h3>
-					<ul><li> Tidy Up </li></ul>
-				<h3><li>Help Animals</li></h3>
-					<ul><li> Food & Water </li></ul>
-				<h3><li>Play Time </li></h3>
-					<ul><li> Kid Games </li></ul>
-				<h3><li>Bath Time </li></h3>
-					<ul><li> Clean Body </li></ul>		
-			</ol>
+
+			<ul class='fa-ul' id="afternoon-activities">
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Snack Time </h3>
+					<ul><li> Healthy Treats </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Clean Out </h3>
+					<ul><li> Lunchbox </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Cleaning Frenzy</h3>
+					<ul><li> Tidy Up </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Help Animals</h3>
+					<ul><li> Food & Water </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Play Time </h3>
+					<ul><li> Kid Games </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3>Bath Time </h3>
+					<ul><li> Clean Body </li></ul></li>
+			</ul class='fa-ul'>
 		</div>
 
 		<!-- Night Time -->
 		<div class="chore-group" id="nighttime"> 
 			<h1> Nighttime Activities (6:00 - 8:00) </h1>
-			<ol>
-				<h3><li> Dinner Time </li></h3>
-					<ul><li> Set Table & Eat </li></ul>
-				<h3><li> Pack Lunches </li></h3>
-					<ul><li> Fill Up Lunchbox </li></ul>
-				<h3><li> Tidy Up </li></h3>
-					<ul><li> Pick Up Messes </li></ul>
-				<h3><li> Get Dressed </li></h3>
-					<ul><li> Pajamas </li></ul>
-				<h3><li> Family Time  </li></h3>
-					<ul><li> Games Or Stories </li></ul>
-				<h3><li> Bed Time </li></h3>
-					<ul><li> Head On Pillow </li></ul>
-			</ol>
+
+			<ul class='fa-ul' id="nighttime-activities">
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Dinner Time </h3>
+					<ul><li> Set Table & Eat </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Pack Lunches </h3>
+					<ul><li> Fill Up Lunchbox </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Tidy Up </h3>
+					<ul><li> Pick Up Messes </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Get Dressed </h3>
+					<ul><li> Pajamas </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Family Time  </h3>
+					<ul><li> Games Or Stories </li></ul></li>
+				<li id="chore"><i class="fa-li fa fa-arrow-circle-o-right fa-3x"></i><h3> Bed Time </h3>
+					<ul><li> Head On Pillow </li></ul></li>
+			</ul class='fa-ul'>
 		</div>
 	</div>
 </body>
