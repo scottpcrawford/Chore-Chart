@@ -97,23 +97,17 @@ ol li{
 	z-index: 1;
 	}
 
-a{
-
-
-}
-
-}
 
 a:visited{
-	#ffffff;
+	color: #000000;
 }
 a:link{
 	color: #ffffff;
 	
 }
 a:hover{
-	color: #000000;
-	background-color: #777777;
+	color: #ffffff;
+	background-color: #000000;
 	/*box-shadow: 2px 2px 5px #777777; */
 
 }
