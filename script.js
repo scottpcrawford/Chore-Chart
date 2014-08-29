@@ -7,28 +7,24 @@ var main = function(){
     			 $('div#morning').show();
 	       		 $('div#afternoon').hide();
 	       		 $('div#nighttime').hide();
+	      		 $('head').append('<link rel="stylesheet" href="morning-style.css" type="text/css" />');
 	       		 break;
 	       	case 'afternoon-button':
 	       		$('div#morning').hide();
 	       		$('div#afternoon').show();
 	       		$('div#nighttime').hide();
+	       		$('head').append('<link rel="stylesheet" href="afternoon-style.css" type="text/css" />');
 	       		break;
 	       	case 'nighttime-button':
 	       		$('div#morning').hide();
 	       		$('div#afternoon').hide();
 	       		$('div#nighttime').show();
+	       		$('head').append('<link rel="stylesheet" href="nighttime-style.css" type="text/css" />');
        			break;
        		}
-    		/*
-    		$('.chore-group').not($this).each(function(){
-    			var $other = $(this);
-    			var otherTarget = $other.data('content');
-    			$(otherTarget).hide();
-    		});
-    		var target = $this.data('content');
-    		$(target).animate({width: "toggle"}, 1000);
-    	}); */
+    		
 });
 }
 
 $(document).ready(main)
+
