@@ -7,20 +7,20 @@ var main = function(){
     			 $('div#morning').show();
 	       		 $('div#afternoon').hide();
 	       		 $('div#nighttime').hide();
-	      		 $('head').append('<link rel="stylesheet" href="morning-style.css" type="text/css" />');
+	       		 $('#switch-style').attr('href','morning-style.css');
 	       		 break;
 	       	case 'afternoon-button':
 	       		$('div#morning').hide();
 	       		$('div#afternoon').show();
 	       		$('div#nighttime').hide();
-	       		$('head').append('<link rel="stylesheet" href="afternoon-style.css" type="text/css" />');
+	       		$('#switch-style').attr('href','afternoon-style.css');
 	       		break;
 	       	case 'nighttime-button':
 	       		$('div#morning').hide();
 	       		$('div#afternoon').hide();
 	       		$('div#nighttime').show();
-	       		$('head').append('<link rel="stylesheet" href="nighttime-style.css" type="text/css" />');
-       			break;
+	       		$('#switch-style').attr('href','nighttime-style.css');
+	       		break;
        		}
     		
 });

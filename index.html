@@ -2,7 +2,8 @@
 <html>
 <head>
 <!-- Add my css stylesheet -->
-	<link rel="stylesheet" type="text/css" href="style.css" >
+	<link rel="stylesheet" type="text/css" id="base" href="style.css">
+	<link rel="stylesheet" type="text/css" id="switch-style" href="morning-style.css" >
 <!-- Add JQuery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
 <!-- Load my own stylesheet -->
@@ -20,9 +21,9 @@
 	<!-- Make buttons -->
 	<div class="button-wrapper">
 		<ul>
-		<a href="#"><li class="button" id="morning-button" data-theme="morning-style.css"> Morning </li></a>
-		<a href="#"><li class="button" id="afternoon-button" data-theme="afternoon-style.css"> Afternoon </li></a>
-		<a href="#"><li class="button" id="nighttime-button" data-theme="nighttime-style.css"> Nighttime </li></a>
+		<li class="button" id="morning-button" data-theme="morning-style.css"><a href="#"><i class="fa fa-sun-o fa-2x"> Morning </i></a></li>
+		<li class="button" id="afternoon-button" data-theme="afternoon-style.css"><a href="#"> <i class="fa fa-adjust fa-2x"> Afternoon </i></a></li>
+		<li class="button" id="nighttime-button" data-theme="nighttime-style.css"><a href="#"> <i class="fa fa-moon-o fa-2x"> Nighttime</i> </a></li>
 		</ul>
 	</div>
 

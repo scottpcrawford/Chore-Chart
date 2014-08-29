@@ -1,102 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=News+Cycle|Lora|Julius+Sans+One);
-
-p{
-	font-family: 'News Cycle', sans-serif;
-	color: #202020;
-	text-align: center;
-
-}
-
-h1{
-	font-family: 'Julius Sans One','Lora', sans-serif;
-	color: #006699;
-	text-align: left;
-	/* line-height: 100px; */
-	text-transform: uppercase;
-	}
-
 body{
 	background-color: #333333;
 	background-repeat: repeat;
 	height: 100%;
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-
 	} 
-
-ol li{
-	font-size: 16px;
-	font-family: 'Lora', sans-serif;
-	color: #000;
-	text-align: left;
-	/* line-height: 100px; */
-	
-}
-
-.button-wrapper{
-	width: 100%;
-	
-	text-align: center;
-	background-color: 'ffffff';
-	text-decoration: none;
-	border:1px solid #42432d;
-	border-width:1px 0;
-}
-
-.button-wrapper li{
-	display:inline;
-	text-align: center;
-	padding:5em;
-	margin:0;
-	border:3px solid #42432d;
-	border-width:1px 0;
-}
-.button-wrapper a{
-	text-decoration: none;
-}
-
-.chore-group{
-	display: none;
-}
-		#morning{
-			display: block;
-		}
-		#afternoon{
-			display: none;
-		}
-		#nighttime{
-			display: none;
-		} 
-			
-.header{
-	position: fixed;
-	width: 100%; 
-	height: 280px;
-	text-align: center;
-	background-image: url('pics/bg grass_pastel.png'); 
-	background-repeat: repeat-x;
-
-}	
-.chore-main{
-	position: absolute;
-	/*top: 280px; */
-	top: 75px;
-	left: 18%;
-
-	background-color: rgba(171, 221, 164, 1.0);
-
-	box-shadow: 10px 10px 5px #777777;
-	width: 65%;
-	height: 600px;
-	margin: 0px auto;
-	padding: 2px;
-	border: 2px solid grey;
-	border-radius: 1em;
-	z-index: 1;
-	}
-
 
 a:visited{
 	color: #ffffff;
@@ -108,7 +14,7 @@ a:link{
 a:hover{
 	color: #000000;
 	background-color: #ffffff;
-	/*box-shadow: 2px 2px 5px #777777; */
+	box-shadow: 2px 2px 5px #777777; 
 
 }
 a:active{
