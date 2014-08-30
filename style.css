@@ -21,21 +21,27 @@ h1{
 	}
 
 h3{
-	font-size: 32px;
+	font-size: 28px;
 	font-family: 'Lora', sans-serif;
 	color: #000;
 	text-align: left;
-	
 }
 
 #odd{
   	float: left;
-  	margin: 0 0 0 50px;
+  	margin: 0 15px 0 200px;
+  	height: 100px;
+  	width: 100px;
+  	opacity: 0.95;
+
 }
 
 #even{
 	float: right;
-	margin: 0 100px 0 0;
+	margin: 0 250px 0 0;
+	height: 100px;
+	width: 100px;
+	opacity: 0.95;
 }
 
 .fa-li {
@@ -117,9 +123,13 @@ a:active{
     color: white;
     font-weight: bold;
 }
-.highlight #chore{
+.highlight i{
 	color: green;
 }
+/*.highlight #chore{
+	color: green;
+} */
 .highlight h3{
 	color: white;
+
 }

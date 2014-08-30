@@ -16,7 +16,7 @@ a:link{
 a:hover{
 	color: #ffffff;
 	background-color: #000000;
-	box-shadow: 2px 2px 15px #777777; 
+	box-shadow: 2px 2px 5px #777777; 
 
 }
 a:active{

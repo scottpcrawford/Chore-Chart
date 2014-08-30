@@ -27,7 +27,12 @@ var main = function(){
 
 	$('.fa-ul #chore').click( function() {
 		$(this).toggleClass('highlight');
-	
+		if ( $(this).hasClass( 'highlight') ) {
+			$(this).children('i').attr('class', 'fa-li fa fa-check-circle-o fa-3x');
+		}
+		else {
+			$(this).children('i').attr('class', 'fa-li fa fa-arrow-circle-o-right fa-3x');
+		} 
 
 		
 	});
