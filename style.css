@@ -21,37 +21,46 @@ h1{
 	}
 
 h3{
+	font-size: 32px;
 	font-family: 'Lora', sans-serif;
 	color: #000;
 	text-align: left;
 	
 }
 
+#odd{
+  	float: left;
+  	margin: 0 0 0 50px;
+}
+
+#even{
+	float: right;
+	margin: 0 100px 0 0;
+}
+
 .fa-li {
 
-    margin: 10px;
+    margin-left: 50px;
 }
 /* Styling for Chores */
 .chore-main{
-	top: 75px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 50px;
+	padding: 5px 40px 5px 30px;
 	width: 600px;
 	background-color: rgba(171, 221, 164, 1.0);
-	box-shadow: 10px 10px 5px #777777;
+	box-shadow: 0px 0px 20px 10px #777777;
 	z-index: 1;
 }
 #chore{
+	height: 100px;
 	cursor: pointer;
 	cursor: -webkit-grab; 
 	cursor: -moz-grab;
-	font-size: 16px;
-	border: 5px solid black; 
-	border-radius: 5px;
-	margin: 5px;
-	vertical-align: middle; 
+	font-size: 24px;
+	border-bottom: 5px black dashed;
 }
+
 .chore-group{
 	display: none;
 }
@@ -61,14 +70,16 @@ h3{
 
 
 .button-wrapper{
-	height: 100px;
+	height: 50px;
 	text-align: center;
 	background-color: 'ffffff';
+
 }
 .button-wrapper li{
 	display: inline-block;
-	margin: 1em;
+	margin: 0em;
 	padding: 0em 2em 0em 2em;
+	border-bottom: 2px black solid;
 
 }
 .button-wrapper a{
