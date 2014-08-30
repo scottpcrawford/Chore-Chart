@@ -1,6 +1,7 @@
 body{
+	background: url('pics/moon.svg') no-repeat;
+	background-size: 700px;
 	background-color: #333333;
-	background-repeat: repeat;
 	height: 100%;
 	} 
 

@@ -1,6 +1,7 @@
 body{
+	background: url('pics/sun.svg') no-repeat;
+	background-size: 700px;
 	background-color: #edea91;
-	background-repeat: repeat;
 	height: 100%;
 	} 
 
@@ -22,6 +23,6 @@ a:active{
 }
 
 .chore-main{
-	background-color: rgba(207,240,255,1.0);
+	background-color: rgba(207,240,255,0.9);
 
 }
