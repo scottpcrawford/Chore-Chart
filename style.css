@@ -1,9 +1,32 @@
 @import url(http://fonts.googleapis.com/css?family=News+Cycle|Lora|Julius+Sans+One);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+
+
+/* Styling for the Header Buttons */
+.button-wrapper{
+	height: 50px;
+	text-align: center;
+	background-color: 'ffffff';
+
+}
+.button-wrapper li{
+	position: relative;
+	display: inline-block;
+	margin: 0em;
+	padding: 0em 2em 0em 2em;
+	border-bottom: 2px black solid;
+
+}
+.button-wrapper a{
+	display: block;
+	text-decoration: none;
+}
+/* End Header Button Styling */
+
 
 body{
 	background-color: gray;
-	background-repeat: repeat;
-
 	} 
 
 p{
@@ -26,22 +49,14 @@ h3{
 	color: #000;
 	text-align: left;
 }
-
-#odd{
-  	float: left;
-  	margin: 0 15px 0 200px;
-  	height: 100px;
-  	width: 100px;
-  	opacity: 0.95;
-
-}
-
-#even{
-	float: right;
-	margin: 0 250px 0 0;
-	height: 100px;
-	width: 100px;
-	opacity: 0.95;
+#odd, #even{
+float: right;
+position: relative;
+bottom: 125px;
+right: 50px;
+height: 200px;
+width: 200px;
+opacity: 0.95;
 }
 
 .fa-li {
@@ -59,14 +74,14 @@ h3{
 	z-index: 1;
 }
 #chore{
-	height: 100px;
+	height: 200px;
 	cursor: pointer;
 	cursor: -webkit-grab; 
 	cursor: -moz-grab;
 	font-size: 24px;
-	border-bottom: 5px black dashed;
+	border-radius: 2em;
+	margin: 5px;
 }
-
 .chore-group{
 	display: none;
 }
@@ -74,28 +89,21 @@ h3{
 	display: block;
 }
 
-
-.button-wrapper{
-	height: 50px;
-	text-align: center;
-	background-color: 'ffffff';
-
+/* Here's where the Font Awesome Arrows & Checkmarks Go */
+.fa-ul li:before {    
+    font-family: 'FontAwesome';
+    font-size: 36px;
+    position: relative;
+    top: 100px;
+    right: 25px;
+    content: '\f061';
+    margin:0 5px 0 -25px;
 }
-.button-wrapper li{
-	display: inline-block;
-	margin: 0em;
-	padding: 0em 2em 0em 2em;
-	border-bottom: 2px black solid;
-
+.fa-ul li.special:before {
+	color: #31B275;
+    content: '\f00c';
 }
-.button-wrapper a{
-	display: block;
-	text-decoration: none;
-}
-
-
-
-
+/* End Font Awesome */
 
 
 a:visited{
@@ -115,18 +123,20 @@ a:active{
 }
 
 #chore:hover{
-	background-color: green;
-	color:white;
+	background-color: #31B275;
+
 }
 .highlight {
-    background-color: green;
+    background-color: #31B275;
     color: white;
     font-weight: bold;
+    border-radius: 50px;
 }
+/*
 .highlight i{
-	color: green;
+	color: #31B275;
 }
-/*.highlight #chore{
+.highlight #chore{
 	color: green;
 } */
 .highlight h3{

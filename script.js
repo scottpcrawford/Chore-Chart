@@ -1,7 +1,7 @@
 var main = function(){
+	/* switch style sheet based on which tab is clicked */
     $('.button').click( function(){
     	
-
     		switch (this.id) {
     		case 'morning-button':
     			 $('div#morning').show();
@@ -24,20 +24,21 @@ var main = function(){
        		}
     		
 	});
-
+    /* Highlight the appropriate Element when clicked */
 	$('.fa-ul #chore').click( function() {
+		/* Color the block green */
 		$(this).toggleClass('highlight');
-		if ( $(this).hasClass( 'highlight') ) {
-			$(this).children('i').attr('class', 'fa-li fa fa-check-circle-o fa-3x');
-		}
-		else {
-			$(this).children('i').attr('class', 'fa-li fa fa-arrow-circle-o-right fa-3x');
-		} 
+		/* Check it off the list! */
+		$(this).toggleClass('special');
 
-		
 	});
 
 };
 
 $(document).ready(main)
+/* Rogue Code Goes Here
 
+
+
+
+*/

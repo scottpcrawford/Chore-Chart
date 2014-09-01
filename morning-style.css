@@ -1,29 +1,11 @@
 body{
-	
 	background: url('pics/sunrise.svg') no-repeat;
 	background-size: 700px;
 	background-color: #cff0ff;
 	height: 100%;
 	} 
 
-a:visited{
-	color: #000000;
-}
-a:link{
-	color: #ffffff;
-	
-}
-a:hover{
-	color: #ffffff;
-	background-color: #000000;
-	box-shadow: 2px 2px 5px #777777; 
-
-}
-a:active{
-	color: #000000;
-}
-
 .chore-main{
-		background-color: rgba(237,234,145,0.85);
+		background-color: rgba(217,255,226,0.85);
 }
 

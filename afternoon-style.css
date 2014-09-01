@@ -5,24 +5,11 @@ body{
 	height: 100%;
 	} 
 
-a:visited{
-	color: #000000;
-}
-a:link{
-	color: #ffffff;
-	
-}
-a:hover{
-	color: #ffffff;
-	background-color: #526ea8;
-	box-shadow: 2px 2px 5px #777777; 
 
-}
-a:active{
-	color: #000000;
+a:hover{
+	background-color: #526ea8;
 }
 
 .chore-main{
 	background-color: rgba(207,240,255,0.9);
-
 }

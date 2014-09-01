@@ -8,26 +8,20 @@ body{
 a:visited{
 	color: #ffffff;
 }
-a:link{
-	color: #ffffff;
-	
-}
 a:hover{
 	color: #000000;
 	background-color: #ffffff;
-	box-shadow: 2px 2px 5px #777777; 
-
-}
-a:active{
-	color: #000000;
 }
 
-h1{
-	color: white;
-}
-h3{ color: white; 
-}
+h1, h3{	color: white; }
+
 .chore-main{
 	background-color: rgba(82,110,168,0.85);
 	color: white;
+}
+
+/* Make A White Checkmark */
+.fa-ul li.special:before {
+	color: white;
+    content: '\f00c';
 }
