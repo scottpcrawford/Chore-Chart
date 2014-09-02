@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=News+Cycle|Lora|Julius+Sans+One);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+
+
+/* Styling for the Header Buttons */
+.button-wrapper{
+	height: 50px;
+	text-align: center;
+	background-color: 'ffffff';
+
+}
+.button-wrapper li{
+	position: relative;
+	display: inline-block;
+	margin: 0em;
+	padding: 0em 2em 0em 2em;
+	border-bottom: 2px black solid;
+
+}
+.button-wrapper a{
+	display: block;
+	text-decoration: none;
+}
+/* End Header Button Styling */
+
+
+body{
+	background-color: gray;
+	} 
+
+p{
+	font-family: 'News Cycle', sans-serif;
+	color: #202020;
+	text-align: center;
+
+}
+
+h1{
+	font-family: 'Julius Sans One','Lora', sans-serif;
+	color: #006699;
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+h3{
+	font-size: 28px;
+	font-family: 'Lora', sans-serif;
+	color: #000;
+	text-align: left;
+}
+#odd, #even{
+float: right;
+position: relative;
+bottom: 125px;
+right: 50px;
+height: 200px;
+width: 200px;
+opacity: 0.95;
+}
+
+.fa-li {
+
+    margin-left: 50px;
+}
+/* Styling for Chores */
+.chore-main{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 40px 5px 30px;
+	width: 600px;
+	background-color: rgba(171, 221, 164, 1.0);
+	box-shadow: 0px 0px 20px 10px #777777;
+	z-index: 1;
+}
+#chore{
+	height: 200px;
+	cursor: pointer;
+	cursor: -webkit-grab; 
+	cursor: -moz-grab;
+	font-size: 24px;
+	border-radius: 2em;
+	margin: 5px;
+}
+.chore-group{
+	display: none;
+}
+#morning{
+	display: block;
+}
+
+/* Here's where the Font Awesome Arrows & Checkmarks Go */
+.fa-ul li:before {    
+    font-family: 'FontAwesome';
+    font-size: 36px;
+    position: relative;
+    top: 100px;
+    right: 25px;
+    content: '\f061';
+    margin:0 5px 0 -25px;
+}
+.fa-ul li.special:before {
+	color: #31B275;
+    content: '\f00c';
+}
+/* End Font Awesome */
+
+
+a:visited{
+	color: #000000;
+}
+a:link{
+	color: #ffffff;
+}
+a:hover{
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #000000;
+	box-shadow: 2px 2px 5px #777777; 
+}
+a:active{
+	color: #000000;
+}
+
+#chore:hover{
+	background-color: #31B275;
+
+}
+.highlight {
+    background-color: #31B275;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+/*
+.highlight i{
+	color: #31B275;
+}
+.highlight #chore{
+	color: green;
+} */
+.highlight h3{
+	color: white;
+
+}

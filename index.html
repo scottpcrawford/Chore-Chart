@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Add my css stylesheet -->
+	<link rel="stylesheet" type="text/css" id="base" href="style.css">
+	<link rel="stylesheet" type="text/css" id="switch-style" href="morning-style.css" >
+<!-- Add JQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+<!-- Load my own stylesheet -->
+	<script type="text/javascript" src="script.js"></script>
+<!-- Load Font Awesome icons -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Title of The Webpage -->
+	<title>Chore Chart</title>
+</head>
+
+<body>
+
+	<!-- Make buttons -->
+	<div class="button-wrapper">
+		<ul>
+		<li class="button" id="morning-button"><a href="#"><i class="fa fa-sun-o fa-2x"> Morning </i></a></li>
+		<li class="button" id="afternoon-button"><a href="#"> <i class="fa fa-adjust fa-2x"> Afternoon </i></i></a></li>
+		<li class="button" id="nighttime-button"><a href="#"> <i class="fa fa-moon-o fa-2x"> Nighttime</i> </a></li>
+		</ul>
+	</div>
+
+
+
+	<!-- Chore Lists -->
+	<div class="chore-main">
+		
+		<!-- Morning Time -->
+		<div class="chore-group" id="morning"> 
+			<h1> Morning Activities (6:00 - 7:00) </h1>
+
+			<ul class='fa-ul' id="morning-activities">
+				<li id="chore">
+					<h3>Help Animals </h3> 
+						Food & Water 
+						<img id='odd' src='pics/cat-dog.svg'> </li>
+				<li id="chore">
+					<h3>Get Dressed </h3> 
+						Clothes & Hair 
+						<img id='even' src='pics/dress-hair.svg'></li>
+				<li id="chore">
+					<h3>Eat Breakfast </h3>
+						Food 
+						<img id='odd' src='pics/eat-breakfast.svg'></li>
+				<li id="chore">
+					<h3> Clean Body </h3>
+						Hands, Face, Teeth 
+						<img id='even' src='pics/hands-face-teeth.svg'></li>
+				<li id="chore">
+					<h3> Make Bed </h3>
+						Pillows & Blankets 
+						<img id='odd' src='pics/make-bed.svg'></li>
+			</ul class='fa-ul'>
+		</div>
+
+		<!-- Afternoon Time -->
+		<div class="chore-group" id="afternoon"> 
+			<h1> Afternoon Activities (3:30 - 5:30) </h1>
+
+			<ul class='fa-ul' id="afternoon-activities">
+				<li id="chore">
+					<h3> Snack Time </h3>
+						Healthy Treats
+						<img id='odd' src='pics/healthy-snack.svg'></li>
+				<li id="chore">
+					<h3>Clean Out </h3>
+						Lunchbox <img id='even' src='pics/clean-lunchbox.svg'></li>
+				<li id="chore">
+					<h3>Cleaning Frenzy </h3>
+						Tidy Up
+						<img id='odd' src='pics/cleaning-frenzy.svg'></li>
+				<li id="chore">
+					<h3>Help Animals </h3>
+						Food & Water
+						<img id='even' src='pics/cat-dog.svg'></li>
+				<li id="chore">
+					<h3> Play Time </h3>
+						Kid Games
+						<img id='odd' src='pics/cat-dog.svg'></li>
+				<li id="chore">
+					<h3>Bath Time </h3>
+						Clean Body
+						<img id='even' src='pics/cat-dog.svg'></li>
+			</ul class='fa-ul'>
+		</div>
+
+		<!-- Night Time -->
+		<div class="chore-group" id="nighttime"> 
+			<h1> Nighttime Activities (6:00 - 8:00) </h1>
+
+			<ul class='fa-ul' id="nighttime-activities">
+				<li id="chore">
+					<h3> Dinner Time </h3>
+						Set Table & Eat
+						<img id='odd' src='pics/cat-dog.svg'></li>
+				<li id="chore">
+					<h3> Pack Lunches </h3>
+						Fill Up Lunchbox
+						<img id='even' src='pics/pack-lunch.svg'></li>
+				<li id="chore">
+					<h3> Tidy Up </h3>
+						Pick Up Messes
+						<img id='odd' src='pics/cat-dog.svg'></li>
+				<li id="chore">
+					<h3> Get Dressed </h3>
+						Pajamas
+						<img id='even' src='pics/pajamas.svg'></li>
+				<li id="chore">
+					<h3> Family Time </h3>
+						Games Or Stories
+						<img id='odd' src='pics/cat-dog.svg'></li>
+				<li id="chore">
+					<h3> Bed Time </h3>
+						Head On Pillow
+						<img id='even' src='pics/head-on-pillow.svg'></li>
+			</ul class='fa-ul'>
+		</div>
+	</div>
+</body>
+</html>

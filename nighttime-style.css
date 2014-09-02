@@ -1,0 +1,27 @@
+body{
+	background: url('pics/moon.svg') no-repeat;
+	background-size: 700px;
+	background-color: #333333;
+	height: 100%;
+	} 
+
+a:visited{
+	color: #ffffff;
+}
+a:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+h1, h3{	color: white; }
+
+.chore-main{
+	background-color: rgba(82,110,168,0.85);
+	color: white;
+}
+
+/* Make A White Checkmark */
+.fa-ul li.special:before {
+	color: white;
+    content: '\f00c';
+}
