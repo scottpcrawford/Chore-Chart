@@ -1,0 +1,11 @@
+body{
+	background: url('pics/sunrise.svg') no-repeat;
+	background-size: 700px;
+	background-color: #cff0ff;
+	height: 100%;
+	} 
+
+.chore-main{
+		background-color: rgba(217,255,226,0.85);
+}
+
