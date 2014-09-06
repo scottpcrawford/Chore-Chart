@@ -25,7 +25,7 @@ var main = function(){
     		
 	});
     /* Highlight the appropriate Element when clicked */
-	$('.fa-ul #chore').click( function() {
+	$('.fa-ul .chore').click( function() {
 		/* Color the block green */
 		$(this).toggleClass('highlight');
 		/* Check it off the list! */
