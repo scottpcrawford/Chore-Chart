@@ -49,16 +49,6 @@
          offset="1"
          id="stop50747-5" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter50062"
-       color-interpolation-filters="sRGB">
-      <feBlend
-         inkscape:collect="always"
-         mode="screen"
-         in2="BackgroundImage"
-         id="feBlend50064" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient50727-2"
@@ -101,26 +91,6 @@
          offset="1"
          id="stop50731-2" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter50062-8"
-       color-interpolation-filters="sRGB">
-      <feBlend
-         inkscape:collect="always"
-         mode="screen"
-         in2="BackgroundImage"
-         id="feBlend50064-1" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter50062-5"
-       color-interpolation-filters="sRGB">
-      <feBlend
-         inkscape:collect="always"
-         mode="screen"
-         in2="BackgroundImage"
-         id="feBlend50064-18" />
-    </filter>
     <radialGradient
        r="231.92999"
        gradientTransform="matrix(1,0,0,0.97561,0,48.847)"
@@ -376,10 +346,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="276.20419"
+     inkscape:cx="280.2448"
      inkscape:cy="296.45382"
      inkscape:document-units="px"
-     inkscape:current-layer="g7713"
+     inkscape:current-layer="g8152"
      showgrid="false"
      inkscape:window-width="1871"
      inkscape:window-height="1056"
@@ -395,7 +365,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -525,7 +495,7 @@
            sodipodi:nodetypes="scccccssssss"
            inkscape:connector-curvature="0"
            id="path8126"
-           d="m 587.52818,-216.47589 c -1.17731,0.0184 -3.28596,4.34932 -5.9375,11.5 C 499.16523,-20.87002 259.24292,-52.0992 404.68443,149.36786 l -20.6875,-55.625 10.59375,-18.125 c -64.72344,-50.87898 110.65869,-83.09516 173.3125,-237.3125 -13.07558,44.87522 -27.8613,102.0186 -29.9375,108.875 -3.46894,11.45575 -53.13343,152.31061 -49.5625,163.65625 3.57093,11.34565 67.17762,28.42055 102.59375,27.71875 34.41667,-0.682 95.09357,-19.41925 98.5625,-30.875 3.46894,-11.45575 -47.46032,-150.71686 -51.03125,-162.0625 -3.57093,-11.34563 -43.96013,-162.20387 -51,-162.09375 z"
+           d="m 587.52818,-216.47589 c -1.17731,0.0184 -3.28596,4.34932 -5.9375,11.5 -82.42545,184.10587 -309.10126,141.99516 -163.65975,343.46222 l -4.56228,-33.74457 -1.07611,-23.32883 C 347.5691,30.53395 505.24937,-7.4773 567.90318,-161.69464 c -13.07558,44.87522 -27.8613,102.0186 -29.9375,108.875 -3.46894,11.45575 -53.13343,152.31061 -49.5625,163.65625 3.57093,11.34565 67.17762,28.42055 102.59375,27.71875 34.41667,-0.682 95.09357,-19.41925 98.5625,-30.875 3.46894,-11.45575 -47.46032,-150.71686 -51.03125,-162.0625 -3.57093,-11.34563 -43.96013,-162.20387 -51,-162.09375 z"
            style="fill:url(#linearGradient8194);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
         <path
            transform="translate(90.68443,-238.25714)"
